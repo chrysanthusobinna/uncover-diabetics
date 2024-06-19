@@ -77,6 +77,10 @@
 		background-color: #0056b3;
 	}
 
+	.active {
+		background-color: #0056b3;
+	}
+
 	#nav-toggle:checked + .nav-toggle-label + nav {
 		display: flex;
 	}
