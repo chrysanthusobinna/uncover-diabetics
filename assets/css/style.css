@@ -219,3 +219,73 @@
 			flex-direction: column;
 		}
 	}
+
+
+	
+	#about-us {
+		background-color: #f8f9fa;
+		padding: 20px;
+		border: 1px solid #dee2e6;
+		border-radius: 5px;
+		margin-bottom: 20px;
+	  }
+	
+	  #our-mission {
+		background-color: #f8f9fa;
+		padding: 20px;
+		border: 1px solid #dee2e6;
+		border-radius: 5px;
+		margin-bottom: 20px;
+	  }
+	
+	  #our-team {
+		background-color: #f8f9fa;
+		padding: 20px;
+		border: 1px solid #dee2e6;
+		border-radius: 5px;
+		margin-bottom: 20px;
+	  }
+	
+	  #get-involved {
+		background-color: #333;
+		color: #fff;
+		border-radius: 5px;
+		padding: 10px;
+	  }
+	
+	  .get-involved-btn {
+		background-color: #555;
+		color: #fff;
+		border-radius: 5px;
+		padding: 10px;
+	  }
+
+
+	  .about-us-section {
+		background-color: #f8f9fa;
+		padding: 20px;
+		border: 1px solid #dee2e6;
+		border-radius: 5px;
+	  }
+	  
+	  .about-us-image {
+		width:50%;
+		margin-bottom:20px;
+	  }
+	  
+	  .our-mission {
+		  background-color: #f8f9fa;
+		  padding:20px;
+		  border:1px solid #dee2e6;
+		  border-radius:5px;
+		  margin-bottom:20px;
+	  }
+	  
+	 
+	  .get-involved-btn {
+		  background-color:#555; 
+		  color:#fff; 
+		  border-radius:5px; 
+		  padding:10px; 
+		  cursor:pointer; 
+	  }
