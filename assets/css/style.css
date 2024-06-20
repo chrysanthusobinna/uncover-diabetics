@@ -289,3 +289,77 @@
 		  padding:10px; 
 		  cursor:pointer; 
 	  }
+
+
+	  section#about-us {
+		display: flex;
+		flex-wrap: wrap;
+	  }
+
+	  section#our-mission {
+		display: flex;
+		flex-wrap: wrap;
+	  }
+
+	  .grid-container {
+		display: flex;
+		justify-content: space-between;
+	  }
+	  
+	  .image-left {
+		width: 30%;  
+		height: auto;  
+
+	  }
+	  .image-right {
+		width: 30%;  
+		height: auto;  
+
+	  }	  
+	  .text-right {
+		width: calc(70% - 2rem);  
+		margin: 2rem;
+		text-align: justify;
+
+	  }
+
+	  .text-left {
+		width: calc(70% - 2rem);  
+		margin: 2rem;
+		text-align: justify;
+
+	  }
+	  
+	  /* Media query for mobile devices */
+	  @media only screen and (max-width: 768px) {
+		.grid-container {
+		  flex-direction: column;
+		  align-items: center;
+		}
+		
+		.image-left {
+		  width: 100%;
+		  height: auto; 
+		  margin-bottom: 1rem;
+		}
+		
+		.text-right {
+		  width: auto;
+		  padding-left: 0;
+		  text-align: justify;
+		}
+
+
+		.image-right {
+			width: 100%;
+			height: auto; 
+			margin-bottom: 1rem;
+		  }
+		  
+		  .text-left {
+			width: auto;
+			padding-left: 0;
+			text-align: justify;
+
+		  }		
+	  }
