@@ -227,63 +227,39 @@
 		align-items: center;
 	}
 
-	.image-left {
+	.content-left {
 		width: 100%;
-		height: auto;
-		margin-bottom: 1rem;
-	}
-
-	.video-left {
-		width: 100%;
-		height: auto;
-		margin-bottom: 1rem;
-	}
-
-	.text-right {
-		width: auto;
-		padding-left: 0;
 		text-align: justify;
-	}
-
-
-	.image-right {
-		width: 100%;
 		height: auto;
 		margin-bottom: 1rem;
 	}
 
-	.text-left {
-		width: auto;
-		padding-left: 0;
+
+	.content-right {
+		width: 100%;
 		text-align: justify;
-
-	}
-	
-
-	
-
-	#about-us {
-		background-color: #f8f9fa;
-		padding: 5px;
-		border: 1px solid #dee2e6;
-		border-radius: 5px;
-		margin-bottom: 20px;
+		height: auto;
+		margin-bottom: 1rem;
 	}
 
-	#our-mission {
-		background-color: #f8f9fa;
-		padding: 20px;
-		border: 1px solid #dee2e6;
-		border-radius: 5px;
-		margin-bottom: 20px;
+
+	.image-about,
+	.video-about {
+		width: 100%;
+		height: auto;
+		object-fit: contain;
 	}
 
+
+
+	#about-us,
+	#our-mission,
 	#our-team {
 		background-color: #f8f9fa;
-		padding: 5px;
 		border: 1px solid #dee2e6;
 		border-radius: 5px;
 		margin-bottom: 20px;
+		padding: 10px;
 	}
 
 	#get-involved {
@@ -291,6 +267,7 @@
 		color: #fff;
 		border-radius: 5px;
 		padding: 5px;
+		min-height: 180px;
 
 	}
 
@@ -309,10 +286,18 @@
 		border: 1px solid #dee2e6;
 		border-radius: 5px;
 	}
- 
 
+	.about-text {
 
-		/* 
+		word-break: break-word;
+		white-space: normal;
+		text-align: justify;
+		padding: 10px;
+		margin-right: 10px;
+
+	}
+
+	/* 
 	The media query  (min-width: 768px) targets devices with a minimum screen width of 768 pixels.
 	1. Desktop computers with a resolution of 1024x768 pixels or higher.
 	2. Laptops with a resolution of 1366x768 pixels or higher.
@@ -322,66 +307,29 @@
 	@media (min-width: 768px) {
 
 
-
-		.about-us-image {
-			width: 50%;
-			margin-bottom: 20px;
-		}
-	
-	
-		#about-us {
-			display: flex;
-			flex-wrap: wrap;
-		}
-	
-		#our-mission {
-			display: flex;
-			flex-wrap: wrap;
-		}
-	
-		#our-team {
-			display: flex;
-			flex-wrap: wrap;
-		}
-	
 		.grid-container {
-			display: flex;
-			justify-content: space-between;
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			gap: 20px;
 		}
-	
-		.image-left {
-			width: 30%;
-			height: auto;
-	
-		}
-	
-		.video-left {
-			width: 30%;
-			height: auto;
-	
-		}
-	
-		.image-right {
-			width: 30%;
-			height: auto;
-	
-		}
-	
-		.text-right {
-			width: calc(70% - 2rem);
-			margin: 2rem;
-			text-align: justify;
-	
-		}
-	
-		.text-left {
-			width: calc(70% - 2rem);
-			margin: 2rem;
-			text-align: justify;
-	
-		}
-	
 
+		.content-left {
+			grid-column: 1;
+			padding-right: 10px;
+		}
+
+		.content-right {
+			grid-column: 2;
+			padding-left: 10px;
+		}
+
+
+		#img-right {
+			width: 95%
+		}
+
+
+		/* navs */
 		.nav-toggle-label {
 			display: none;
 		}
@@ -412,12 +360,12 @@
 		}
 
 
-		
+
 	}
 
 
 
-		/* 
+	/* 
 	Mobile phones / 480x800 pixels or lower, such as older Android phones or iPhones.
 	Some tablets with a resolution of 768x1024 pixels, such as the original iPad.
 	Some older laptops with a resolution of 1024x768 pixels or lower. 
@@ -432,9 +380,3 @@
 			flex-direction: column;
 		}
 	}
-
-
-	
-	
-
-
