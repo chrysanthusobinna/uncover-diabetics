@@ -250,7 +250,8 @@
 		background-color: #333;
 		color: #fff;
 		border-radius: 5px;
-		padding: 10px;
+		padding: 20px;
+
 	  }
 	
 	  .get-involved-btn {
@@ -258,6 +259,7 @@
 		color: #fff;
 		border-radius: 5px;
 		padding: 10px;
+		text-decoration: none; 
 	  }
 
 
@@ -288,6 +290,7 @@
 		  border-radius:5px; 
 		  padding:10px; 
 		  cursor:pointer; 
+		  text-decoration: none; 
 	  }
 
 
@@ -301,6 +304,11 @@
 		flex-wrap: wrap;
 	  }
 
+	  section#our-team {
+		display: flex;
+		flex-wrap: wrap;
+	  }
+	  
 	  .grid-container {
 		display: flex;
 		justify-content: space-between;
@@ -311,6 +319,11 @@
 		height: auto;  
 
 	  }
+	  .video-left {
+		width: 30%;  
+		height: auto;  
+
+	  }	  
 	  .image-right {
 		width: 30%;  
 		height: auto;  
@@ -342,7 +355,13 @@
 		  height: auto; 
 		  margin-bottom: 1rem;
 		}
-		
+
+		.video-left {
+			width: 100%;
+			height: auto; 
+			margin-bottom: 1rem;
+		  }
+
 		.text-right {
 		  width: auto;
 		  padding-left: 0;
