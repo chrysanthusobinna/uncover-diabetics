@@ -3,7 +3,7 @@
 		margin: 0;
 		padding: 0;
 		box-sizing: border-box;
-		
+
 	}
 
 	header {
@@ -81,40 +81,11 @@
 		background-color: #0056b3;
 	}
 
-	#nav-toggle:checked + .nav-toggle-label + nav {
+	#nav-toggle:checked+.nav-toggle-label+nav {
 		display: flex;
 	}
 
-	@media (min-width: 768px) {
-		.nav-toggle-label {
-			display: none;
-		}
 
-		nav {
-			position: static;
-			flex-direction: row;
-			background-color: transparent;
-			width: auto;
-			display: flex;
-		}
-
-		nav ul {
-			display: flex;
-			flex-direction: row;
-		}
-
-		nav ul li {
-			border-bottom: none;
-		}
-
-		nav ul li a {
-			padding: 0 15px;
-		}
-
-		#nav-toggle {
-			display: none;
-		}
-	}
 
 	main {
 		padding: 20px;
@@ -126,7 +97,7 @@
 		text-align: center;
 		padding: 30px;
 		margin-bottom: 30px;
-	 }
+	}
 
 
 	#banner-text {
@@ -136,11 +107,11 @@
 		width: 70%;
 		height: 100%;
 		padding-top: 5px;
-		padding-bottom:5px;
-	 
+		padding-bottom: 5px;
+
 	}
 
-	#banner-text > h2 {
+	#banner-text>h2 {
 		color: #ffffff;
 	}
 
@@ -197,44 +168,44 @@
 		color: white;
 		padding: 20px;
 		text-align: center;
-	  }
-	  
-	  .footer-container {
+	}
+
+	.footer-container {
 		max-width: 1200px;
 		margin: 0 auto;
 		padding: 20px;
-	  }
-	  
-	  .social-media-links {
+	}
+
+	.social-media-links {
 		display: flex;
 		justify-content: center;
-	  }
-	  
-	  .social-media-links a {
+	}
+
+	.social-media-links a {
 		margin: 10px;
-	  }
-	  
-	  .footer-nav {
+	}
+
+	.footer-nav {
 		list-style: none;
 		padding: 0;
 		margin: 0;
-	  }
-	  
-	  .footer-nav li {
+	}
+
+	.footer-nav li {
 		display: inline-block;
 		margin-right: 20px;
-	  }
-	  
-	  .footer-nav a {
+	}
+
+	.footer-nav a {
 		text-decoration: none;
 		color: white;
-	  }
-	  
-	  .footer-nav a:hover {
-		color: #b3d3ee;
-	  }
+	}
 
-	  
+	.footer-nav a:hover {
+		color: #b3d3ee;
+	}
+
+
 
 	#social-media-links a {
 		color: white;
@@ -246,6 +217,183 @@
 	#social-media-links a:hover {
 		color: #b3d3ee;
 	}
+
+
+
+
+	#about-us {
+		background-color: #f8f9fa;
+		padding: 20px;
+		border: 1px solid #dee2e6;
+		border-radius: 5px;
+		margin-bottom: 20px;
+	}
+
+	#our-mission {
+		background-color: #f8f9fa;
+		padding: 20px;
+		border: 1px solid #dee2e6;
+		border-radius: 5px;
+		margin-bottom: 20px;
+	}
+
+	#our-team {
+		background-color: #f8f9fa;
+		padding: 20px;
+		border: 1px solid #dee2e6;
+		border-radius: 5px;
+		margin-bottom: 20px;
+	}
+
+	#get-involved {
+		background-color: #333;
+		color: #fff;
+		border-radius: 5px;
+		padding: 20px;
+
+	}
+
+	.get-involved-btn {
+		background-color: #555;
+		color: #fff;
+		border-radius: 5px;
+		padding: 10px;
+		text-decoration: none;
+	}
+
+
+	.about-us-section {
+		background-color: #f8f9fa;
+		padding: 20px;
+		border: 1px solid #dee2e6;
+		border-radius: 5px;
+	}
+
+	.about-us-image {
+		width: 50%;
+		margin-bottom: 20px;
+	}
+
+	.our-mission {
+		background-color: #f8f9fa;
+		padding: 20px;
+		border: 1px solid #dee2e6;
+		border-radius: 5px;
+		margin-bottom: 20px;
+	}
+
+
+	.get-involved-btn {
+		background-color: #555;
+		color: #fff;
+		border-radius: 5px;
+		padding: 10px;
+		cursor: pointer;
+		text-decoration: none;
+	}
+
+
+	section#about-us {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	section#our-mission {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	section#our-team {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.grid-container {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.image-left {
+		width: 30%;
+		height: auto;
+
+	}
+
+	.video-left {
+		width: 30%;
+		height: auto;
+
+	}
+
+	.image-right {
+		width: 30%;
+		height: auto;
+
+	}
+
+	.text-right {
+		width: calc(70% - 2rem);
+		margin: 2rem;
+		text-align: justify;
+
+	}
+
+	.text-left {
+		width: calc(70% - 2rem);
+		margin: 2rem;
+		text-align: justify;
+
+	}
+
+
+
+	
+
+		/* 
+	The media query  (min-width: 768px) targets devices with a minimum screen width of 768 pixels.
+	1. Desktop computers with a resolution of 1024x768 pixels or higher.
+	2. Laptops with a resolution of 1366x768 pixels or higher.
+	3. Tablets with a resolution of 768x1024 pixels or higher, such as the iPad Mini or older iPads.
+	4. Some smartphones with a resolution of 768x1024 pixels or higher, such as the iPhone 4 or older iPhones.
+	*/
+	@media (min-width: 768px) {
+		.nav-toggle-label {
+			display: none;
+		}
+
+		nav {
+			position: static;
+			flex-direction: row;
+			background-color: transparent;
+			width: auto;
+			display: flex;
+		}
+
+		nav ul {
+			display: flex;
+			flex-direction: row;
+		}
+
+		nav ul li {
+			border-bottom: none;
+		}
+
+		nav ul li a {
+			padding: 0 15px;
+		}
+
+		#nav-toggle {
+			display: none;
+		}
+	}
+
+
+
+		/* 
+	Mobile phones / 480x800 pixels or lower, such as older Android phones or iPhones.
+	Some tablets with a resolution of 768x1024 pixels, such as the original iPad.
+	Some older laptops with a resolution of 1024x768 pixels or lower. 
+	*/
 
 	@media (max-width: 768px) {
 		.cards {
@@ -259,163 +407,53 @@
 
 
 	
-	#about-us {
-		background-color: #f8f9fa;
-		padding: 20px;
-		border: 1px solid #dee2e6;
-		border-radius: 5px;
-		margin-bottom: 20px;
-	  }
 	
-	  #our-mission {
-		background-color: #f8f9fa;
-		padding: 20px;
-		border: 1px solid #dee2e6;
-		border-radius: 5px;
-		margin-bottom: 20px;
-	  }
-	
-	  #our-team {
-		background-color: #f8f9fa;
-		padding: 20px;
-		border: 1px solid #dee2e6;
-		border-radius: 5px;
-		margin-bottom: 20px;
-	  }
-	
-	  #get-involved {
-		background-color: #333;
-		color: #fff;
-		border-radius: 5px;
-		padding: 20px;
-
-	  }
-	
-	  .get-involved-btn {
-		background-color: #555;
-		color: #fff;
-		border-radius: 5px;
-		padding: 10px;
-		text-decoration: none; 
-	  }
 
 
-	  .about-us-section {
-		background-color: #f8f9fa;
-		padding: 20px;
-		border: 1px solid #dee2e6;
-		border-radius: 5px;
-	  }
-	  
-	  .about-us-image {
-		width:50%;
-		margin-bottom:20px;
-	  }
-	  
-	  .our-mission {
-		  background-color: #f8f9fa;
-		  padding:20px;
-		  border:1px solid #dee2e6;
-		  border-radius:5px;
-		  margin-bottom:20px;
-	  }
-	  
-	 
-	  .get-involved-btn {
-		  background-color:#555; 
-		  color:#fff; 
-		  border-radius:5px; 
-		  padding:10px; 
-		  cursor:pointer; 
-		  text-decoration: none; 
-	  }
 
 
-	  section#about-us {
-		display: flex;
-		flex-wrap: wrap;
-	  }
+	/* 
+	Mobile phones / 480x800 pixels or lower, such as older Android phones or iPhones.
+	Some tablets with a resolution of 768x1024 pixels, such as the original iPad.
+	Some older laptops with a resolution of 1024x768 pixels or lower. 
+	*/
 
-	  section#our-mission {
-		display: flex;
-		flex-wrap: wrap;
-	  }
+	@media (max-width: 768px) {
 
-	  section#our-team {
-		display: flex;
-		flex-wrap: wrap;
-	  }
-	  
-	  .grid-container {
-		display: flex;
-		justify-content: space-between;
-	  }
-	  
-	  .image-left {
-		width: 30%;  
-		height: auto;  
-
-	  }
-	  .video-left {
-		width: 30%;  
-		height: auto;  
-
-	  }	  
-	  .image-right {
-		width: 30%;  
-		height: auto;  
-
-	  }	  
-	  .text-right {
-		width: calc(70% - 2rem);  
-		margin: 2rem;
-		text-align: justify;
-
-	  }
-
-	  .text-left {
-		width: calc(70% - 2rem);  
-		margin: 2rem;
-		text-align: justify;
-
-	  }
-	  
-	  /* Media query for mobile devices */
-	  @media only screen and (max-width: 768px) {
 		.grid-container {
-		  flex-direction: column;
-		  align-items: center;
+			flex-direction: column;
+			align-items: center;
 		}
-		
+
 		.image-left {
-		  width: 100%;
-		  height: auto; 
-		  margin-bottom: 1rem;
+			width: 100%;
+			height: auto;
+			margin-bottom: 1rem;
 		}
 
 		.video-left {
 			width: 100%;
-			height: auto; 
+			height: auto;
 			margin-bottom: 1rem;
-		  }
+		}
 
 		.text-right {
-		  width: auto;
-		  padding-left: 0;
-		  text-align: justify;
+			width: auto;
+			padding-left: 0;
+			text-align: justify;
 		}
 
 
 		.image-right {
 			width: 100%;
-			height: auto; 
+			height: auto;
 			margin-bottom: 1rem;
-		  }
-		  
-		  .text-left {
+		}
+
+		.text-left {
 			width: auto;
 			padding-left: 0;
 			text-align: justify;
 
-		  }		
-	  }
+		}
+	}
