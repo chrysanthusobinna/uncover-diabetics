@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Uncover Diabetics</title>
-  
+
     <link rel="stylesheet" href="/assets/css/style.css">
 
 </head>
@@ -29,17 +29,64 @@
 
     <!-- Main content -->
     <main>
- 
 
-        <!-- Introduction panel -->
-        <div class="panel">
-            <h2>CONTACT US</h2>
-            <p>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+
+    <!-- Banner section -->
+    <section id="banner">
+        <div id="banner-text">
+          <h2>Contact Us </h2>
+        </div>
+      </section>
+  
+  
+
+
+
+        <section id="about-us">
+            <div class="grid-container">
+              <div class="content-left">
+                <p>Please fill out the form below to get in touch with us.</p>
+
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+    
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required><br><br>
+    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea><br><br>
+    
+                    <input type="submit" value="Send">
+                </form>
+              </div>
+              <div class="content-right">
+                <div class="map-container">
+                    <iframe src="https://maps.google.it/maps?q=Bolton, United Kingdom&amp;output=embed" frameborder="0"
+                        style="border:0;" allowfullscreen="" aria-hidden="false" loading="lazy" tabindex="0">
+                    </iframe>
+                </div>                
+              </div>
+            </div>
+          </section>
+
+
+         <!-- Introduction panel -->
+         <div class="panel">
+ 
+            <h3>Address:</h3>
+            <p><a href="#"  class="contact-link"  ><i class="fa-solid fa-location-dot"></i> Bolton, United Kingdom</a></p>
+
+            <h3>Phone Number:</h3>
+            <p><a href="tel:07765093130"  class="contact-link"  ><i class="fa fa-phone"></i> 07765093130</a></p>
+
+            <h3>Email:</h3>
+            <p> <a href="mailto:info@uncoverdiabetes.org"   class="contact-link"><i class="fa fa-envelope-o"></i> info@uncoverdiabetes.org</a>  </p>
         </div>
 
-     
-
-   
     </main>
 
     <!-- Footer -->
@@ -50,7 +97,7 @@
                 <a href="https://www.twitter.com/" target="_blank" class="fa fa-twitter"></a>
                 <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram"></a>
             </div>
-            <br/>
+            <br />
             <ul class="footer-nav">
                 <li><a href="/index.html">Home</a></li>
                 <li><a href="/about.html">About</a></li>
