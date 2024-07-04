@@ -38,12 +38,22 @@ Project Overview:
   ![ABOUT PAGE IMG 1](screenshots/contact-us1.png)
   ![ABOUT PAGE IMG 2](screenshots/contact-us2.png)
 
+- __The Footer__ 
 
+ - The footer section provides links to our social media profiles, which will open in a new tab to ensure easy navigation for the user. This section is valuable to the user as it encourages them to stay connected with us through social media.
 
 
 ### Features Left to Implement
 
+- Backend code for sending mail functionality at the contact page
+- JavaScript code to improve user-friendly design and user experience
 
-## Testing 
 
+### Testing 
+
+I have thoroughly tested the website to ensure that it works as intended. I have tested all features, including the contact form, social media links, and responsive design. I have also tested the website on different browsers (Chrome, Firefox, Safari) and screen sizes (desktops, tablets, mobile phones).
+
+During testing, I discovered some broken links on the footer area and a video file on the contact page. These issues were fixed, and the website was tested again to confirm that it is in good condition.
+
+Despite these minor issues, I am confident that our website provides an easy and straightforward way for users to access the information they need. We believe that our website meets the requirements specified in the project brief and is ready for launch.
  
