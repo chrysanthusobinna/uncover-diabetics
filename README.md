@@ -14,25 +14,30 @@ Project Overview:
   - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, About page, Contact page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-- __Landing Page__
+- __Home Page__
 
-  - The landing page includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
-  - This section introduces the user to Uncover Diabetics with an eye-catching images to grab their attention.
+  - he home page provides an overview of diabetes, its types (Type 1, Type 2, Gestational), symptoms, complications  and prevention and management strategies. The page features a hero section with a background image and a brief introduction to diabetes, followed by sections on the different types of diabetes and their symptoms.
 
-- __About Section__
+  ![HOME PAGE IMG 1](screenshots/homepage1.png)
+  ![HOME PAGE IMG 2](screenshots/homepage2.png)
 
-  - The About section will provide users with information about Our Story, What We Do , Our Mission and About Our Team.
-  - This section will help users understand the purpose and mission of Uncover Diabetics.
 
-- __Symptoms Section__
+- __About Page__
 
-  - The Symptoms section will list the common symptoms of different types of diabetes, allowing users to better understand the signs and symptoms.
-  - This section will provide users with valuable information on how to identify potential cases of diabetes.
+  - The about page shares the story of how Uncover Diabetes came to be, what we do , our mission (to empower people to take control of their health), and information about our team. 
 
-- __Prevention Section__
+  ![ABOUT PAGE IMG 1](screenshots/about-page1.png)
+  ![ABOUT PAGE IMG 2](screenshots/about-page2.png)
+  ![ABOUT PAGE IMG 3](screenshots/about-page3.png)
 
-  - The Prevention section will provide users with tips and advice on how to prevent developing diabetes or managing it effectively.
-  - This section will educate users on healthy lifestyle habits that can reduce the risk of developing diabetes.
+
+- __Contact Page__
+
+  - The contact page provides our contact information (address, phone number, email) and a contact form that allows users to send us messages or ask questions. This page also includes a map with our physical location marked.
+
+  ![ABOUT PAGE IMG 1](screenshots/contact-us1.png)
+  ![ABOUT PAGE IMG 2](screenshots/contact-us2.png)
+
 
 
 
