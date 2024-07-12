@@ -49,7 +49,7 @@ Project Overview:
 - JavaScript code to improve user-friendly design and user experience
 
 
-### Testing 
+## Testing 
 
 I have thoroughly tested the website to ensure that it works as intended. I have tested all features, including the contact form, social media links, and responsive design. I have also tested the website on different browsers (Chrome, Firefox, Safari) and screen sizes (desktops, tablets, mobile phones).
 
@@ -57,3 +57,59 @@ During testing, I discovered some broken links on the footer area and a video fi
 
 Despite these minor issues, I am confident that our website provides an easy and straightforward way for users to access the information they need. We believe that our website meets the requirements specified in the project brief and is ready for launch.
  
+
+## Deployment 
+
+
+**Step 1: Download the Project**
+
+* Go to the GitHub repository: https://github.com/chrysanthusobinna/uncover-diabetics
+* Click on the "Code" button and copy the URL.
+* Open your terminal or command prompt.
+* Run the following command: `git clone https://github.com/chrysanthusobinna/uncover-diabetics.git`
+
+**Step 2: Create a GitHub Repository**
+
+* Go to your GitHub account and log in.
+* Click on the "+" button to create a new repository.
+* Fill in the required information (repository name, description, etc.).
+* Click "Create repository".
+
+**Step 3: Upload the Project to GitHub**
+
+* Open the terminal or command prompt and navigate to the project directory: `cd uncover-diabetics`
+* Run the following command: `git init`
+* Run the following command: `git add .`
+* Run the following command: `git commit -m "Initial commit"`
+* Run the following command: `git remote add origin <your-github-repository-url>`
+* Run the following command: `git push -u origin master`
+
+**Step 4: Deploy on GitHub**
+
+* Go to your GitHub repository and click on the "Code" tab.
+* Click on the "Deployments" tab.
+* Click on "New deployment".
+* Choose "GitHub Pages" as the deployment method.
+* Choose the branch you want to deploy (e.g., master).
+* Click "Deploy".
+
+
+That's it! Your project should now be deployed on your GitHub account.
+The live link for this project can be found here - https://chrysanthusobinna.github.io/uncover-diabetics/
+
+
+
+## Credits 
+
+**Content**
+
+* The icons in the footer and contact page were taken from [ Font Awesome](https://fontawesome.com/).
+
+**Media**
+
+* The photos used on the Home Page, About Page and Contact page are from [Pexels](https://www.pexels.com/).
+
+**Code**
+
+* Instructions on how to implement responsive navigation toggling a dropdown menu using CSS were taken from [YouTube Tutorial](https://youtu.be/ekC1dVIzEh8).
+* The favicon image was created using [Favicon.io](https://favicon.io/).
