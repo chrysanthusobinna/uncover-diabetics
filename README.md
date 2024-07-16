@@ -54,14 +54,22 @@ Project Overview:
 
 I have thoroughly tested the website to ensure that it works as intended. Here are the results:
 
-* I used HTML Validator (https://validator.w3.org/) to validate the HTML structure of the website. The result was "Document checking completed. No errors or warnings to show."
+* I used [HTML Validator](https://validator.w3.org/) to validate the HTML structure of the website. The result was "Document checking completed. No errors or warnings to show."
 ![HTML Validator Result](screenshots/html-validator.png)
-* I used CSS Validator (https://jigsaw.w3.org/css-validator/) to validate the CSS code of the website. The result was "Congratulations! No Error Found."
+
+
+
+* I used [CSS Validator](https://jigsaw.w3.org/css-validator/) to validate the CSS code of the website. The result was "Congratulations! No Error Found."
 ![CSS Validator Result](screenshots/validate-css.png)
-* I used Google Chrome Lighthouse (https://chrome.google.com/webstore/detail/lighthouse/blieemeejacfgncihaldgbhichelmof) to test the website's performance, accessibility, and SEO. Here is a screenshot of the result:
+
+
+
+* I tested the website using Google Chrome Lighthouse, an open-source, automated tool for measuring the quality of web pages. Here is a screenshot of the result:
 ![Lighthouse Result](screenshots/light-house.png)
 
 I tested all features, including the contact form, social media links, and responsive design. I also tested the website on different browsers (Chrome, Firefox, Safari) and screen sizes (desktops, tablets, mobile phones).
+
+
 
 During testing, I discovered some minor issues with broken links on the footer area and a video file on the contact page. These issues were fixed, and the website was tested again to confirm that it is in good condition.
 
