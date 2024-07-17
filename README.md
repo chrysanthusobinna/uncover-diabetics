@@ -87,6 +87,11 @@ To ensure the website's responsiveness, I used Google Chrome Developer Tools to 
   - Tested on a desktop.
   - ![Desktop Result](documentation/desktop.png)
 
+### Contact Form Testing
+Testing the form submission process, ensuring the user receives a confirmation, and you receive the message. The contact form was submitted to "https://formdump.codeinstitute.net/" using the POST method. Here is the result screenshot: 
+![Contact Form Result](documentation/contact-form-result.png)
+
+
 During testing, I discovered some minor issues with broken links on the footer area and a video file on the contact page. These issues were fixed, and the website was tested again to confirm that it is in good condition.
 
 Despite these minor issues, I am confident that our website provides an easy and straightforward way for users to access the information they need. We believe that our website meets the requirements specified in the project brief and is ready for launch.
