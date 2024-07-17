@@ -3,7 +3,7 @@
 Project Overview:
 "Uncover Diabetics" is a web-based project aimed at creating awareness about diabetes, its types, symptoms, complications, prevention, and management. The website aims to provide valuable information and resources to individuals who are affected by diabetes or are interested in learning more about the disease.
 
-![Responsive Mockup](screenshots/responsive-img.png)
+![Responsive Mockup](documentation/responsive-img.png)
 
 ## Features 
 
@@ -18,25 +18,25 @@ Project Overview:
 
   - he home page provides an overview of diabetes, its types (Type 1, Type 2, Gestational), symptoms, complications  and prevention and management strategies. The page features a hero section with a background image and a brief introduction to diabetes, followed by sections on the different types of diabetes and their symptoms.
 
-  ![HOME PAGE IMG 1](screenshots/homepage1.png)
-  ![HOME PAGE IMG 2](screenshots/homepage2.png)
+  ![HOME PAGE IMG 1](documentation/homepage1.png)
+  ![HOME PAGE IMG 2](documentation/homepage2.png)
 
 
 - __About Page__
 
   - The about page shares the story of how Uncover Diabetes came to be, what we do , our mission (to empower people to take control of their health), and information about our team. 
 
-  ![ABOUT PAGE IMG 1](screenshots/about-page1.png)
-  ![ABOUT PAGE IMG 2](screenshots/about-page2.png)
-  ![ABOUT PAGE IMG 3](screenshots/about-page3.png)
+  ![ABOUT PAGE IMG 1](documentation/about-page1.png)
+  ![ABOUT PAGE IMG 2](documentation/about-page2.png)
+  ![ABOUT PAGE IMG 3](documentation/about-page3.png)
 
 
 - __Contact Page__
 
   - The contact page provides our contact information (address, phone number, email) and a contact form that allows users to send us messages or ask questions. This page also includes a map with our physical location marked.
 
-  ![ABOUT PAGE IMG 1](screenshots/contact-us1.png)
-  ![ABOUT PAGE IMG 2](screenshots/contact-us2.png)
+  ![ABOUT PAGE IMG 1](documentation/contact-us1.png)
+  ![ABOUT PAGE IMG 2](documentation/contact-us2.png)
 
 - __The Footer__ 
 
@@ -55,17 +55,17 @@ Project Overview:
 I have thoroughly tested the website to ensure that it works as intended. Here are the results:
 
 * I used [HTML Validator](https://validator.w3.org/) to validate the HTML structure of the website. The result was "Document checking completed. No errors or warnings to show."
-![HTML Validator Result](screenshots/html-validator.png)
+![HTML Validator Result](documentation/html-validator.png)
 
 
 
 * I used [CSS Validator](https://jigsaw.w3.org/css-validator/) to validate the CSS code of the website. The result was "Congratulations! No Error Found."
-![CSS Validator Result](screenshots/validate-css.png)
+![CSS Validator Result](documentation/validate-css.png)
 
 
 
 * I tested the website using Google Chrome Lighthouse, an open-source, automated tool for measuring the quality of web pages. Here is a screenshot of the result:
-![Lighthouse Result](screenshots/light-house.png)
+![Lighthouse Result](documentation/light-house.png)
 
 I tested all features, including the contact form, social media links, and responsive design. I also tested the website on different browsers (Chrome, Firefox, Safari) and screen sizes (desktops, tablets, mobile phones).
 
