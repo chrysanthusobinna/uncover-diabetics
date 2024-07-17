@@ -71,6 +71,22 @@ I tested all features, including the contact form, social media links, and respo
 
 
 
+### Responsive Design Testing
+
+To ensure the website's responsiveness, I used Google Chrome Developer Tools to simulate various devices. Here are the details of the tests:
+
+- **Mobile Phone**
+  - Tested on a mobile phone using Chrome Developer Tools.
+  - ![Mobile Phone Result](documentation/mobile-phone.png)
+
+- **iPad**
+  - Tested on an iPad using Chrome Developer Tools.
+  - ![iPad Result](documentation/ipad.png)
+
+- **Desktop**
+  - Tested on a desktop.
+  - ![Desktop Result](documentation/desktop.png)
+
 During testing, I discovered some minor issues with broken links on the footer area and a video file on the contact page. These issues were fixed, and the website was tested again to confirm that it is in good condition.
 
 Despite these minor issues, I am confident that our website provides an easy and straightforward way for users to access the information they need. We believe that our website meets the requirements specified in the project brief and is ready for launch.
