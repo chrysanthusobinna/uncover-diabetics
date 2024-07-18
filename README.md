@@ -59,21 +59,89 @@ Project Overview:
 
 ## Testing 
 
+### Testing
 
-I have thoroughly tested the website to ensure that it works as intended. Here are the results:
+I conducted thorough testing of each page using various tools to ensure the website functions correctly and meets quality standards.
+#### Index Page:
 
-* I used [HTML Validator](https://validator.w3.org/) to validate the HTML structure of the website. The result was "Document checking completed. No errors or warnings to show."
-![HTML Validator Result](documentation/html-validator.png)
+- **HTML Validator:** The HTML structure was validated using W3C HTML Validator. The result was "Document checking completed. No errors or warnings to show."
+  ![Index Page HTML Validator Result](documentation/index-html-validator.png)
 
+- **Google Chrome Lighthouse:** The Index page was tested with Google Chrome Lighthouse.
 
+Performance: 100, 
+Accessibility: 86, 
+Best Practices: 100, 
+SEO: 100. 
 
-* I used [CSS Validator](https://jigsaw.w3.org/css-validator/) to validate the CSS code of the website. The result was "Congratulations! No Error Found."
+Here is a screenshot of the result:
+  ![Index Page Lighthouse Result](documentation/index-lighthouse.png)
+
+#### About Page:
+
+- **HTML Validator:** The HTML structure was validated using W3C HTML Validator. The result was "Document checking completed. No errors or warnings to show."
+  ![About Page HTML Validator Result](documentation/about-html-validator.png)
+
+- **Google Chrome Lighthouse:** The About page was tested with Google Chrome Lighthouse.
+
+Performance: 54, 
+Accessibility: 87, 
+Best Practices: 100, 
+SEO: 100. 
+
+Here is a screenshot of the result:
+  ![About Page Lighthouse Result](documentation/about-lighthouse.png)
+
+#### Contact Page:
+
+- **HTML Validator:** The HTML structure was validated using W3C HTML Validator. The result was "Document checking completed. No errors or warnings to show."
+  ![Contact Page HTML Validator Result](documentation/contact-html-validator.png)
+
+- **Google Chrome Lighthouse:** The Contact page was tested with Google Chrome Lighthouse.
+
+Performance: 100, 
+Accessibility: 87, 
+Best Practices: 78, 
+SEO: 100. 
+
+Here is a screenshot of the result:
+  ![Contact Page Lighthouse Result](documentation/contact-lighthouse.png)
+
+#### Confirmation Page:
+
+- **HTML Validator:** The HTML structure was validated using W3C HTML Validator. The result was "Document checking completed. No errors or warnings to show."
+  ![Confirmation Page HTML Validator Result](documentation/confirmation-html-validator.png)
+
+- **Google Chrome Lighthouse:** The Confirmation page was tested with Google Chrome Lighthouse.
+
+Performance: 100, 
+Accessibility: 84, 
+Best Practices: 100, 
+SEO: 100. 
+
+Here is a screenshot of the result:
+  ![Confirmation Page Lighthouse Result](documentation/confirmation-lighthouse.png)
+
+#### 404 Page:
+
+- **HTML Validator:** The HTML structure was validated using W3C HTML Validator. The result was "Document checking completed. No errors or warnings to show."
+  ![404 Page HTML Validator Result](documentation/404-html-validator.png)
+
+- **Google Chrome Lighthouse:** The 404 page was tested with Google Chrome Lighthouse.
+
+Performance: 75, 
+Accessibility: 87, 
+Best Practices: 100, 
+SEO: 100.
+
+Here is a screenshot of the result:
+  ![404 Page Lighthouse Result](documentation/404-lighthouse.png)
+
+#### CSS Validation:
+
+I used [CSS Validator](https://jigsaw.w3.org/css-validator/) to validate the CSS code of the website. The result was "Congratulations! No Error Found."
 ![CSS Validator Result](documentation/validate-css.png)
 
-
-
-* I tested the website using Google Chrome Lighthouse, an open-source, automated tool for measuring the quality of web pages. Here is a screenshot of the result:
-![Lighthouse Result](documentation/light-house.png)
 
 I tested all features, including the contact form, social media links, and responsive design. I also tested the website on different browsers (Chrome, Firefox, Safari) and screen sizes (desktops, tablets, mobile phones).
 
