@@ -5,6 +5,14 @@ Project Overview:
 
 ![Responsive Mockup](documentation/responsive-img.png)
 
+
+
+## Technologies Used
+
+### Frontend
+- **HTML**: Used for structuring the web pages and ensuring semantic markup.
+- **CSS**: Employed for styling and layout adjustments, ensuring a visually appealing and consistent user interface across different devices.
+
 ## Features 
 
 ### Existing Features
@@ -153,3 +161,7 @@ The live link for this project can be found here - https://chrysanthusobinna.git
 
 * Instructions on how to implement responsive navigation toggling a dropdown menu using CSS were taken from [YouTube Tutorial](https://youtu.be/ekC1dVIzEh8).
 * The favicon image was created using [Favicon.io](https://favicon.io/).
+
+**Google Maps**
+
+* The map on the contact page is implemented using [Google Maps](https://maps.google.com/).
