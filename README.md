@@ -13,6 +13,23 @@ Project Overview:
 - **HTML**: Used for structuring the web pages and ensuring semantic markup.
 - **CSS**: Employed for styling and layout adjustments, ensuring a visually appealing and consistent user interface across different devices.
 
+
+### Technologies Used
+
+- HTML
+- CSS
+
+### UX 
+
+#### Color Scheme
+
+- **Sky Blue:** The color scheme of the website primarily utilizes Sky Blue (#007bff). Sky Blue is chosen for its associations with health, clarity, and a pleasant aesthetic. It symbolizes tranquility and reliability, making it ideal for a platform dedicated to health awareness and education.
+
+#### Typography
+
+- **Font:** The font used throughout the website is `Arial, sans-serif`. This font choice ensures readability across different devices and provides a clean, modern look to the content.
+
+
 ## Features 
 
 ### Existing Features
@@ -58,8 +75,6 @@ Project Overview:
 
 
 ## Testing 
-
-### Testing
 
 I conducted thorough testing of each page using various tools to ensure the website functions correctly and meets quality standards.
 #### Index Page:
@@ -241,4 +256,4 @@ The live link for this project can be found here - https://chrysanthusobinna.git
 
 **Note on Commit Messages**
 
-* Initially, commit messages may have been unclear but were improved after guidance from a mentor Tim.
+* Initially, commit messages may have been unclear but were improved after guidance from my mentor Tim.
