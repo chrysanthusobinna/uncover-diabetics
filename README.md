@@ -96,8 +96,13 @@ To ensure the website's responsiveness, I used Google Chrome Developer Tools to 
   - ![Desktop Result](documentation/desktop.png)
 
 ### Contact Form Testing
-Testing the form submission process, ensuring the user receives a confirmation, and you receive the message. The contact form was submitted to "https://formdump.codeinstitute.net/" using the POST method. Here is the result screenshot: 
+
+Testing the form submission process, ensuring the user receives a confirmation, and you receive the message. The contact form was submitted to "confirmation.html" using the GET method.
+
+Here is the result screenshot:
+
 ![Contact Form Result](documentation/contact-form-result.png)
+
 
 
 During testing, I discovered some minor issues with broken links on the footer area and a video file on the contact page. These issues were fixed, and the website was tested again to confirm that it is in good condition.
@@ -165,3 +170,7 @@ The live link for this project can be found here - https://chrysanthusobinna.git
 **Google Maps**
 
 * The map on the contact page is implemented using [Google Maps](https://maps.google.com/).
+
+**Note on Commit Messages**
+
+* Initially, commit messages may have been unclear but were improved after guidance from a mentor Tim.
